@@ -1,0 +1,118 @@
+\documentclass{beamer}
+\mode<presentation>
+{
+  \usetheme{Darmstadt}
+  \setbeamercovered{transparent}
+  \setbeamertemplate{headline}{}
+  \setbeamertemplate{footline}[frame number]
+  \setbeamertemplate{navigation symbols}{}
+}
+\useoutertheme[subsection=false]{miniframes}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{appendixnumberbeamer}
+
+
+\title{Compound Name}
+
+\author{Karthik Rao}
+\institute{
+  Department of Physics and Astronomy\\
+  Rice University
+ }
+\date{\today}
+\subject{Physics}
+
+\pgfdeclareimage[height=1.0cm]{university-logo}{university-logo-filename.png}
+\logo{\pgfuseimage{university-logo}}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+
+  \titlepage
+\begin{figure}
+    \includegraphics[width=2cm]{university-logo-filename.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+\section{Background}
+\subsection{Motivation}
+
+\begin{frame}{Motivation}
+
+\end{frame}
+
+
+\subsection{Existing Literature}
+
+\begin{frame}{Existing Literature}
+\end{frame}
+
+
+
+\section{Work Done So Far}
+
+
+
+
+\subsection{Growth Recipe}
+
+\begin{frame}{Growth Recipe}
+\end{frame}
+
+\subsection{Results}
+
+\begin{frame}{Results}
+\end{frame}
+
+\subsection{Crystal Structure}
+
+\begin{frame}{Crystal Structure}
+\end{frame}
+\subsection{Measurements}
+
+\begin{frame}{Measurements}
+\begin{itemize}
+    \item Specific Heat
+    \item MH, MT
+    \item RT etc.
+\end{itemize}
+\end{frame}
+
+\section{Next Steps}
+\begin{frame}{Next Steps}
+\end{frame}
+\section*{Summary}
+
+\begin{frame}{Summary}
+
+\end{frame}
+
+
+
+ 
+\appendix
+\section<presentation>*{\appendixname}
+\subsection<presentation>*{Backup Slides}
+
+\begin{frame}{Appendix}
+    
+\end{frame}
+
+\end{document}
+
+
+
